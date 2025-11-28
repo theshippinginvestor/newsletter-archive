@@ -16,7 +16,7 @@ Automatisches Archiv für alle Newsletter-Ausgaben.
 
 ## 🔄 Automatische Updates
 
-- Jeden Sonntag 09:00 CET wird automatisch ein neuer Newsletter hinzugefügt
+- Jeden Sonntag gegen 07:00 (deutscher Zeit) wird automatisch ein neuer Newsletter hinzugefügt
 - GitHub Actions Workflow pusht via `NEWSLETTER_ARCHIVE_PAT`
 - Index wird automatisch mit allen Newslettern aktualisiert
 
