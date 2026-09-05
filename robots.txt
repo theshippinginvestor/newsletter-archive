@@ -1,0 +1,12 @@
+# Das Archiv ist absichtlich frei zugaenglich, soll aber nicht in
+# Suchmaschinen erscheinen. Das leistet das `noindex`-Meta-Tag in jeder Seite,
+# NICHT diese Datei.
+#
+# Deshalb steht hier bewusst KEIN `Disallow: /`: das wuerde das Crawlen
+# verbieten, und ein Crawler, der die Seite nicht abrufen darf, liest das
+# noindex nie. Google indexiert solche URLs dann trotzdem (ohne Inhalt, aus
+# fremden Links) und hat keine Anweisung mehr, sie zu entfernen.
+#
+# Wer hier ein Disallow eintraegt, hebt die Nicht-Indexierung auf.
+User-agent: *
+Allow: /
